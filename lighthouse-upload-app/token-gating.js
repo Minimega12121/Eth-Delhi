@@ -34,7 +34,7 @@ const accessControl = async (givenCID) => {
     const conditions = [
       {
         id: 1,
-        chain: "Base_Testnet",
+        chain: "Fuji",
         method: "getBlockNumber",
         standardContractType: "",
         returnValueTest: {

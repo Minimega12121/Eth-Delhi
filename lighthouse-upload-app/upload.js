@@ -228,10 +228,9 @@ Public Address: ${process.env.PUBLIC_ADDRESS || "Not set"}`;
   }
 };
 
-// Run the upload if this file is executed directly
-if (import.meta.url === `file://${process.argv[1]}`) {
-  main();
-}
+
+main();
+
 
 // Export functions for use in other modules
 export { uploadEncryptedFile, uploadEncryptedText, signAuthMessage };

@@ -310,7 +310,5 @@ const main = async () => {
   }
 };
 
-// Run if executed directly
-if (import.meta.url === `file://${process.argv[1]}`) {
-  main();
-}
+main();
+
