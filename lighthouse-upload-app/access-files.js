@@ -308,7 +308,7 @@ const main = async () => {
   } catch (error) {
     console.error("Main execution error:", error);
   }
-};
+}; 
 
 main();
 
